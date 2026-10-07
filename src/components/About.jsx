@@ -7,7 +7,7 @@ export default function About() {
     <section id="about" className="section">
       <div className="wrap about">
         <figure className="about-photo reveal">
-          <img src={profile.photo} alt={`Portrait of ${profile.name}`} width="288" height="384" />
+          <img src={profile.photo} alt={`Portrait of ${profile.name}`} width="400" height="400" />
           <figcaption>
             <span className="status-dot" /> {profile.status}
           </figcaption>
